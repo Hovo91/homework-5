@@ -1,4 +1,4 @@
-let number = +prompt();
+// Write a function, which will receive a number between 0 to 999,999  and spell out that number in English.
 
 function oneDigitNumber(number) {
   let answer = '';
@@ -166,4 +166,4 @@ function makeNumberWord(number) {
   return answer;
 }
 
-alert(makeNumberWord(number));
+console.log(makeNumberWord(98));
