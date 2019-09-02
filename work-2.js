@@ -10,9 +10,7 @@ function getAllPossibleSubsetsOfLengthThree (array = []) {
   for (let i = 0; i < array.length; i++) {
     for (let j = i + 1; j < array.length; j++) {
       for (let z = j + 1; z < array.length; z++) {
-        result.push(array[i]);
-        result.push(array[j]);
-        result.push(array[z]);
+        result.push(array[i], array[j], array[z]);
         mainArray.push(result);
         result = [];
       }
